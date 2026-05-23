@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int N = 0;
+
+    scanf("%d", &N);
+
+    if(N == 0)
+    {
+        printf("YONSEI");
+    }
+    else
+    {
+        printf("Leading the Way to the Future");
+    }
+
+    return 0;
+}
